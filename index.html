@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Jost:ital,wght@0,100;0,200;0,300;0,500;0,800;0,900;1,600&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&family=Oswald:wght@200;600&family=Poppins:wght@300&family=Roboto:ital,wght@0,300;0,400;0,700;1,700&family=Tangerine&display=swap"
+        rel="stylesheet">
+    <title>Blood Donation Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href=""><img src="img/donation.png" alt=""></a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Donor List</a></li>
+            </ul>
+        </div>
+        <div id="openbar" class="toggle">
+            <i class='bx bx-menu' id="open__btn"></i>
+            <i class='bx bx-x' id="close__btn"></i>
+        </div>
+
+        <!-- for toggle -->
+        <div class="toggle__menu">
+            <ul class="active__menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Donor List</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- header done -->
+    <section class="post">
+        <section class="post__in">
+            <div class="image__story">
+                <h1>BLOOD DONATION</h1>
+                <p>Blood donation is a vital part of worldwide healthcare. It relates to blood transfusion as a
+                    life-sustaining and life-saving procedure as well as a form of therapeutic phlebotomy as a primary
+                    medical intervention. Over one hundred million units of blood are donated each year throughout the
+                    world.</p>
+                <button>Donate Now</button>
+                <button>Join With Us <i class='bx bx-right-arrow-circle'></i></button>
+            </div>
+            <div class="image">
+                <img src="img/pexels-kirill-dratsevich-12227661.jpg" alt="">
+            </div>
+        </section>
+    </section>
+    <!-- poster is done -->
+    <section class="dashboard">
+        <div class="h11">
+            <h1>Dashboard</h1>
+        </div>
+        <section class="dashboard__content">
+            <div id="item1" class="items">
+                <h1><i class='bx bxs-hand-right'></i> Total Blood Groups</h1>
+                <h2>10</h2>
+            </div>
+            <div id="item2" class="items">
+                <h1><i class='bx bxs-hand-right'></i> Total Approved Donors</h1>
+                <h2>13</h2>
+            </div>
+            <div id="item3" class="items">
+                <h1><i class='bx bxs-hand-right'></i> Total Pending Donors</h1>
+                <h2>3</h2>
+            </div>
+            <div id="item4" class="items">
+                <h1><i class='bx bxs-hand-right'></i> Total News</h1>
+                <h2>7</h2>
+            </div>
+            <div id="item5" class="items">
+                <h1><i class='bx bxs-hand-right'></i> Total Agents</h1>
+                <h2>9</h2>
+            </div>
+            <div id="item6" class="items">
+                <h1><i class='bx bxs-hand-right'></i> Total Subscribers</h1>
+                <h2>40</h2>
+            </div>
+            <div id="item7" class="items">
+                <h1><i class='bx bxs-hand-right'></i> Total Pricing Plans</h1>
+                <h2>$22</h2>
+            </div>
+        </section>
+    </section>
+    <!-- dashboard done -->
+
+    <!-------------form----------------------------->
+    <section class="forms">
+        <div class="bdf">
+            <h1>Blood Donation Form</h1>
+        </div>
+        <section class="sub__form">
+            <form action="">
+                <input type="text" name="name" placeholder="First Name" required><br>
+                <input type="text" name="name" placeholder="Last Name" required><br>
+                <input type="text" name="name" placeholder="Middle Name" required><br>
+                <input type="email" name="email" placeholder="Enter Your Email" required><br>
+                <input type="phone" name="phone" placeholder="Enter your phone Number" required><br>
+                <select name="group" id="bg">
+                    <option value="default">blood group</option>
+                    <option value="">A+</option>
+                    <option value="">A-</option>
+                    <option value="">B+</option>
+                    <option value="">B-</option>
+                    <option value="">O+</option>
+                    <option value="">O-</option>
+                    <option value="">AB+</option>
+                    <option value="">AB-</option>
+                </select><br>
+                <textarea name="address" id="address" cols="67" rows="5" placeholder="address"></textarea><br>
+                <div class="selectme">
+                    <p>Have you done blood donation before ?</p>
+                    <input type="radio" id="yes" name="fav_language" value="yes">
+                    <label for="yes">yes</label><br>
+                    <input type="radio" id="no" name="fav_language" value="no">
+                    <label for="no">no</label><br>
+                </div>
+                <button class="form__btn">submit</button>
+                <!-- <input type="reset" value="reset"> -->
+            </form>
+        </section>
+    </section>
+    <!-- -------------form done ---------------------->
+
+    <!-- footer -->
+    <section class="footer">
+        <section class="footer__content">
+            <div class="boxes">
+                <h1>About Clinic</h1>
+                <li>About this Site</li>
+                <li>Contact Us</li>
+                <li>Locations</li>
+                <li>Health Information Policy</li>
+                <li>Media Requests</li>
+                <li>News Network</li>
+            </div>
+            <div class="boxes">
+                <h1>Medical Professional</h1>
+                <li>Ask Experts</li>
+                <li>Clinical Trials</li>
+                <li>Clinic Alumani Association</li>
+                <li>Refer a Patient</li>
+            </div>
+            <div class="boxes">
+                <h1>Business</h1>
+                <li>Executive Business Collaborations</li>
+                <li>Facilities & Real Estate</li>
+                <li>Supplier Information</li>
+            </div>
+            <div class="boxes">
+                <h1>Students</h1>
+                <li>Degree Programs</li>
+                <li>Admissions Requirements</li>
+                <li>Student & Faculty Portal</li>
+            </div>
+        </section>
+    </section>
+<!------------------footer done-------------->
+<!-- social box -->
+<div class="social">
+    <div class="apps">
+        <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+        <li><a href="#"><i class='bx bxl-instagram'></i></a></li>
+        <li><a href="#"><i class='bx bxl-twitter'></i></a></li>
+        <li><a href="#"><i class='bx bxl-reddit'></i></a></li>
+    </div>
+
+    <div class="store__logo">
+        <h2>Download Our Apps</h2>
+        <img src="img/android2.png" alt="">
+        <img src="img/apple2.png" alt="">
+    </div>
+</div>
+
+<p id="kg">Developed by &copy;Kamli Gupta</p>
+
+    <script src="attract.js">
+        // js code here
+        
+    </script>
+
+
+
+
+</body>
+
+</html>
